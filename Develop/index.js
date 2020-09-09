@@ -1,3 +1,4 @@
+var inquirer = require ('inquirer');
 // array of questions for user
 const questions = [
     {
@@ -32,7 +33,7 @@ const questions = [
         name: "Usage"
     },
     {
-        type: "checkbox",
+        type: "list",
         message: "What license would you like your project to have?",
         choices: ['MIT License', 'GNU General Public License v3.0', 'Apache License 2.0', 'Mozilla Public License 2.0', 'The Unlicense'],
         name: "License"
@@ -50,12 +51,12 @@ const questions = [
     {
         type: "input",
         message: "What is your GitHub username?",
-        name: "Questions"
+        name: "QuestionGit"
     },
     {
         type: "input",
         message: "What is your email address (example: yourEmail@url.com)?",
-        name: "Questions"
+        name: "QuestionEmail"
     },
 
 ];
@@ -66,7 +67,11 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+inquirer
+.prompt(questions)
+.then(response => {
+console.log(response);
+});
 }
 
 // function call to initialize program
