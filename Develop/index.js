@@ -14,17 +14,6 @@ const questions = [
         message: "What is the description of your application?",
         name: "description"
     },
-
-    /***************************************
-     * Should I do this?
-     ***********************
-    {
-        type: "checkbox",
-        message: "What do you need in your Table of Contents?",
-        choices: ['Installation', 'Usage', 'License', 'Contributing', 'Tests', 'Questions'],
-        name: "Table of Contents"
-    },
-    *****************************************/
     {
         type: "input",
         message: "What steps are required for installing your project?",
@@ -42,13 +31,13 @@ const questions = [
         name: "license"
     },
     {
-        type: "confirm",
-        message: "Would you like your contributer section to be filled by the Contributor Covenant?",
+        type: "input",
+        message: "Add guidlines on how you would like others to contribute to your project",
         name: "contributing"
     },
     {
-        type: "confirm",
-        message: "Do you need a section for writing tests?",
+        type: "input",
+        message: "Write out tests for your application here",
         name: "tests"
     },
     {
@@ -60,14 +49,13 @@ const questions = [
         type: "input",
         message: "What is your email address (example: yourEmail@url.com)?",
         name: "questionEmail"
-    },
+    }
 
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
-
         if (err) {
             return console.log(err);
         }
@@ -75,17 +63,17 @@ function writeToFile(fileName, data) {
         console.log('success!')
     });
 }
-
-// let responses;
+  
 // function to initialize program
 function init() {
 inquirer
 .prompt(questions)
-.then(function (response) {
-    console.log(response);
-    writeToFile('README.md', markdown(response));
+.then(answers => {
+    console.log(answers);
+    writeToFile('README.md', markdown(answers));
 });
 }
+
 
 // function call to initialize program
 init();
