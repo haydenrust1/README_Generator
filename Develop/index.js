@@ -27,7 +27,7 @@ const questions = [
     {
         type: "list",
         message: "What license would you like your project to have?",
-        choices: ['MIT License', 'GNU General Public License v3.0', 'Apache License 2.0', 'Mozilla Public License 2.0', 'The Unlicense'],
+        choices: ['MIT', 'GNU', 'Apache2.0', 'Mozilla-Public-License 2.0', 'Unlicensed'],
         name: "license"
     },
     {
@@ -37,7 +37,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Write out tests for your application here",
+        message: "How can a user test your project?",
         name: "tests"
     },
     {

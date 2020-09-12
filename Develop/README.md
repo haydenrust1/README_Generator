@@ -1,7 +1,10 @@
 
-  # Lorem ipsum dolor sit amet, nisl signiferumque ea vel, vim et mentitum appetere percipit. Ne quo tale tritani senserit. Id vim officiis liberavisse signiferumque, modus prompta sit in, eos elit populo ex. Usu enim praesent id. Est cu quidam aperiam, usu id munere aliquando similique, qui in consul putent. Te eos verear vivendo, diam atomorum et qui.
+  # Project
+
+  ![License](https://img.shields.io/badge/license-MIT-blue)
+
   ## Description
-  * Lorem ipsum dolor sit amet, nisl signiferumque ea vel, vim et mentitum appetere percipit. Ne quo tale tritani senserit. Id vim officiis liberavisse signiferumque, modus prompta sit in, eos elit populo ex. Usu enim praesent id. Est cu quidam aperiam, usu id munere aliquando similique, qui in consul putent. Te eos verear vivendo, diam atomorum et qui.
+  * example description
 
   ## Table of Contents
   * [Installation](#installation)
@@ -11,22 +14,22 @@
   * [Tests](#tests)
   
   ## Installation
-  * Lorem ipsum dolor sit amet, nisl signiferumque ea vel, vim et mentitum appetere percipit. Ne quo tale tritani senserit. Id vim officiis liberavisse signiferumque, modus prompta sit in, eos elit populo ex. Usu enim praesent id. Est cu quidam aperiam, usu id munere aliquando similique, qui in consul putent. Te eos verear vivendo, diam atomorum et qui.
+  * example steps
 
   ## Usage
-  * Lorem ipsum dolor sit amet, nisl signiferumque ea vel, vim et mentitum appetere percipit. Ne quo tale tritani senserit. Id vim officiis liberavisse signiferumque, modus prompta sit in, eos elit populo ex. Usu enim praesent id. Est cu quidam aperiam, usu id munere aliquando similique, qui in consul putent. Te eos verear vivendo, diam atomorum et qui.
+  * example usage
 
   ## License
-  * MIT License
+  * This project is licensed under: MIT
 
   ## Contributing
-  * true
+  * example guidlines
 
   ## Tests
-  * false
+  * example test
   
   ## Questions
   Please contact me with any questions you may have using the links below!
-  * haydenrust1
+  * [GitHub Profile](https://github.com/haydenrust1)
   * <haydenrust1@gmail.com>
   
