@@ -4,7 +4,7 @@
   ![License](https://img.shields.io/badge/license-MIT-blue)
 
   ## Description
-  * this application seeks to provide users with a taylord README.md file for their own projects! 
+  * this application seeks to provide users with a tailored README.md file for their own projects! 
 
   ## Table of Contents
   * [Installation](#installation)
